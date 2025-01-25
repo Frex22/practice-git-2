@@ -14,7 +14,8 @@ spec:
         - containerPort: 80
           name: "http-server"
       volumeMounts:
-        - mountPath: "/usr/share/nginx/html"
-          name: task-pv-storage-12343 #correctly working code in master asuumed 
+        - mountPath: "/usr/share/nginx/html" 
+          name: task-pv-storage
+
 
 
